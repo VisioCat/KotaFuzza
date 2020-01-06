@@ -83,6 +83,10 @@ y.start()
 
 * It is possible to change the Monitoring mode by the parameter ```monitor_mode='icmp'```. You can choose ```icmp``` or ```portscan```. ICMP is enabled by default.
 
+### UML-Diagram
+
+![uml](./img/uml.png "uml-diagram")
+
 ## Features
 List of features ready
 * Extract Fuzzing-Inputs from .pcap-file
