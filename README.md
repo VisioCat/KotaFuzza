@@ -42,9 +42,9 @@ $ pip install -r requirements.txt
 This command will create the object x with all parameters, that are needed.
 In this example all packets from the test.pcap-file with the target ip address 192.168.1.1 will be stored in the folder raw_packets. It makes sense to parse only the unencrypted packets, which is indicate by True. Sometimes you need an offset, if the packet payload is encapsulated in another protocol to identifie the TLS identifier. In this example the offset is set to 0. 
 ```python
-from KotaFuzza import Fuzz_Preperation
+from KotaFuzza import Fuzz_Preparation
 
-x = Fuzz_Preperation('./test.pcap', './raw_packets/', '192.168.1.1', 0, True)
+x = Fuzz_Preparation('./test.pcap', './raw_packets/', '192.168.1.1', 0, True)
 x.parse()
 ```
 If a port monitoring is needed, the script will also make a portscan, just to check what the "normal" status of the ports is.
