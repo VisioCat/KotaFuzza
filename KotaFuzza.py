@@ -24,7 +24,7 @@ import nmap
 import csv
 import queue
 
-class Fuzz_Preperation():
+class Fuzz_Preparation():
 
     def __init__(self, pcapfile, dir_raw, target_ip='127.0.0.1', offset=0, encryption=False, portscanfile = '../portscan.csv', portrange='10-100'):
         self._pcapfile = pcapfile
