@@ -1,4 +1,4 @@
-from KotaFuzza import Fuzz_Preperation, Fuzz_with_Seeds, Fuzz_create_Seeds, Fuzz_Simple
+from KotaFuzza import Fuzz_Preparation, Fuzz_with_Seeds, Fuzz_create_Seeds, Fuzz_Simple
 
 TARGETIP = '192.168.0.1'
 TARGETPORT = 443
