@@ -6,9 +6,9 @@ TARGETTRANSPORT = 'udp'
 TLSon = True
 PCAP_FILE = '../trace1.pcapng'
 RAW_DIR = '../raw_packets/'
-SEED_FILE = '../seeds.csv
+SEED_FILE = '../seeds.csv'
 
-#x = Fuzz_Preperation(PCAP_FILE, RAW_DIR, TARGETIP, TLSOFFSET, TLSon)
+#x = Fuzz_Preparation(PCAP_FILE, RAW_DIR, TARGETIP, TLSOFFSET, TLSon)
 #x.parse()
 
 #firstfuzz = Fuzz_create_Seeds(TARGETIP, TARGETPORT, TARGETTRANSPORT, RAW_DIR, SEED_FILE)
